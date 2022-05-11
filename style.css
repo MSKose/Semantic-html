@@ -1,5 +1,49 @@
 * {
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-size: 35px;
+    height: 100vh;
+    text-align: center;
+    /* justify-content: center; */
+    
+}
+
+
+header, nav, aside, footer {
+    display: grid;
+    place-items: center;
+}
+
+
+header {
+    background-color: red;
+    height: 15vh;
+    color: white;
+}
+
+nav {
+    background-color: blue;
+    height: 5vh;
+}
+
+aside {
+    background-color: yellow;
+    display: float;
+    float: left;
+    height: 70vh;
+    width: 40vh;
+}
+
+main {
+    background-color: darkgray;
+    height: 70vh;
+}
+
+footer {
+    background-color: grey;
+    height: 10vh;
 }
